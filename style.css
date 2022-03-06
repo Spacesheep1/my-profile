@@ -1,0 +1,83 @@
+body {
+	font-family: lora, serif;
+	text-justify: justify;
+	
+	color: rgb(50,50,50);
+background-color: beige;
+text-align: center;
+
+}
+a{
+	font-family: arial, serif;
+}
+
+h1 {font-weight: 100;
+color: darkred;}
+
+h5 {
+	padding-bottom: 30px;
+}
+h1, h2, h3, h4, h5 { 
+font-family: arial;
+font-weight: bolder; }
+
+h2, h3, h4, h5 {color: brown;}
+
+
+.profile {width: 150;
+border-radius: 10px;
+border: 2px solid darkred;
+margin-bottom: 20px;}
+
+.division {
+	background: whitesmoke;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1);
+	width: 700px;
+	margin: 20px auto;
+}
+.btn {
+	background-color: darkred;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.btn:hover {
+	text-decoration: none;
+padding: 17px 30px;
+}
+
+.list {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list li{
+	display: inline;
+	padding: 100px;
+
+}
+
+.icon {height: 50px;
+	width: 50px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
